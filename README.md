@@ -1,8 +1,6 @@
 [README.md](https://github.com/user-attachments/files/32254129/README.md)
 # Persian ASR with LLM-Based Text Refinement
 
-**Author:** Amir Safarzadeh · **Advisor:** Dr. Meysam Roustaei · Bachelor's Final Project, Summer 2026
-
 A two-stage Persian (Farsi) speech recognition system: a progressively fine-tuned Whisper model for speech-to-text, followed by an LLM-based refinement layer targeting output readability rather than raw WER minimization.
 
 ## Goal
