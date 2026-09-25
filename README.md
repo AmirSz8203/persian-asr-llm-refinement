@@ -59,7 +59,7 @@ To address lexical errors, the project moved to fine-tuning a dedicated LLM, wit
 - **Safety net at inference:** if the LLM's output changed the word count or dropped a punctuation mark, its output was discarded and the raw Whisper text was kept instead — an effective guard against gross errors like accidental word deletion.
 
 **Final training dataset:** [`raw-pairs-v10k-cleaned`](https://www.kaggle.com/datasets/amirsafarzadeh8203/raw-pairs-v10k-cleaned)
-**Final model:** [`amirsz8203/gemma3-fa-whisper-refinement-lora-v13`](https://huggingface.co/amirsz8203/gemma3-fa-whisper-refinement-lora-v13)
+**Final model:** [`amirsz8203/gemma3-fa-whisper-refinement-lora-v1`](https://huggingface.co/amirsz8203/gemma3-fa-whisper-refinement-lora-v1)
 
 ## 4. Final Evaluation
 
@@ -103,4 +103,4 @@ The project combined two complementary stages: progressive Whisper fine-tuning w
 - Dataset: [Common Voice Persian 26.0](https://mozilladatacollective.com/datasets/cmqinhw5100v8nr07gyg5gi4vf)
 - LLM training pairs (raw): [`raw-pairs-v280`](https://www.kaggle.com/datasets/amirsafarzadeh8203/raw-pairs-v280) · [`raw-pairs-v10k`](https://www.kaggle.com/datasets/amirsafarzadeh8203/raw-pairs-v10k) · [`raw-pairs-v10k-cleaned`](https://www.kaggle.com/datasets/amirsafarzadeh8203/raw-pairs-v10k-cleaned)
 - Whisper model: [`amirsz8203/whisper-small-fa-finetuned`](https://huggingface.co/amirsz8203/whisper-small-fa-finetuned)
-- Gemma refinement model: [`amirsz8203/gemma3-fa-whisper-refinement-lora-v13`](https://huggingface.co/amirsz8203/gemma3-fa-whisper-refinement-lora-v13)
+- Gemma refinement model: [`amirsz8203/gemma3-fa-whisper-refinement-lora-v1`](https://huggingface.co/amirsz8203/gemma3-fa-whisper-refinement-lora-v1)
